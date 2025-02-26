@@ -4,10 +4,43 @@
 }
 
 body {
-  background-color: antiquewhite;
-  color: aqua;
+  background-color: rgb(0, 0, 0);
+  color: rgb(125, 0, 0);
 }
 
 strong {
-  color: blue;
+  color: rgb(1, 1, 122);
+}
+
+main{   
+    display: flex;
+    padding: 0px 300px 0px 200px
+}
+
+header, footer{
+     height: 100; 
+}
+
+P{
+    margin: 40PX 0 60PX 0;
+}
+
+h1{
+   font-size: 39px;
+}
+
+img{
+    width: 40%;
+}
+
+button{
+      background-color: rgb(23, 0, 85);
+      width: 120px ;
+      height: 80;
+      border-radius: 9PX; 
+      border-color: aliceblue;
+      margin: 5px 5px 0 0;
+}
+a{
+    color: antiquewhite;
 }
